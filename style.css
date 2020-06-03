@@ -306,13 +306,9 @@ body {
   color: #151C22;
 }
 
-.breadcrumbs__link::after {
+.breadcrumbs__link:not(.breadcrumbs__link-active)::after {
   content: "/";  
   padding-left: 20px;
-}
-
-.breadcrumbs__link-active::after {
-  content:  "";
 }
 
 .catalog__title {
