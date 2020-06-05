@@ -280,8 +280,7 @@ body {
 
 .catalog-header-wrapper {
   display: flex;
-  justify-conent: flex-start;  
-  
+  justify-content: flex-start;    
 }
 
 .breadcrumbs {
